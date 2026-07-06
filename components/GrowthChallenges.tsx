@@ -97,6 +97,11 @@ export default function GrowthChallengesSection() {
                 <p className="mt-4 text-sm leading-7 text-slate-400 sm:text-base">
                   {item.description}
                 </p>
+                   <button  onClick={() => setIsPopupOpen(true)}  className="group inline-flex w-full items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-green-500 to-green-600 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-green-500/30 sm:w-auto">
+                  Learn more
+
+                <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+              </button>
               </div>
             );
           })}

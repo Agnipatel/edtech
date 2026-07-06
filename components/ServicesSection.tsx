@@ -110,20 +110,18 @@ export default function ServicesSection() {
                 </p>
 
                 {/* Learn More Button */}
-                <button
-                  onClick={() => setIsPopupOpen(true)}
-                  className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-green-400 transition hover:text-green-300"
-                >
-                  Learn More
-                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </button>
+                 <button  onClick={() => setIsPopupOpen(true)}  className="group inline-flex w-full items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-green-500 to-green-600 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-green-500/30 sm:w-auto">
+             Learn More
+
+                <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+              </button>
 
                 {/* Glow Effect */}
-                <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                {/* <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <div
                     className={`absolute -right-16 -top-16 h-40 w-40 rounded-full bg-gradient-to-r ${service.color} opacity-20 blur-3xl`}
                   />
-                </div>
+                </div> */}
               </div>
             );
           })}

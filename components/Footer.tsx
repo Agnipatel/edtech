@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
 
             <p className="mt-5 text-sm leading-7 text-zinc-400 sm:text-base">
-             Helping fintech companies, NBFCs, digital banking platforms, investment apps, insurance providers, and financial service businesses generate qualified users through SEO, Google Ads, Meta Ads, Local SEO, and AI-powered digital marketing strategies.
+             Helping EdTech companies, online learning platforms, coaching institutes, universities, certification providers, and education startups generate qualified student enrollments through SEO, Google Ads, Meta Ads, AI Search Optimization (GEO & AEO), CRM, and performance-driven digital marketing.
             </p>
           </div>
 
@@ -30,14 +30,14 @@ export default function Footer() {
               href="#marketing"
               className="transition hover:text-[#22c55e]"
             >
-              Fintech Marketing
+              EdTech Marketing
             </Link>
 
             <Link
               href="#growth"
               className="transition hover:text-[#22c55e]"
             >
-              Fintech Growth
+              EdTech Growth
             </Link>
 
             <Link
@@ -51,7 +51,7 @@ export default function Footer() {
               href="#ivf-process"
               className="transition hover:text-[#22c55e]"
             >
-              Fintech Process
+              EdTech Process
             </Link>
 
             <Link
@@ -79,7 +79,7 @@ export default function Footer() {
           </p>
 
           <p>
-            Fintech Digital Marketing Agency • Bangalore • India
+            EdTech Digital Marketing Agency • Bangalore • India
           </p>
         </div>
       </div>
