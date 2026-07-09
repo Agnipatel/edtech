@@ -40,7 +40,7 @@ export default function HeroSection() {
             </h1>
 
             {/* Description */}
-            <p className="mt-8 max-w-2xl text-base leading-8 text-green-300 sm:text-lg md:text-xl">
+            <p className="mt-8 max-w-2xl text-base leading-8 text-gray-300 sm:text-lg md:text-xl">
               Pandaece is the digital marketing growth partner behind
               <span className="font-semibold text-green-400">
                 {" "}
@@ -113,7 +113,7 @@ export default function HeroSection() {
             {/* Image */}
             <div className="relative w-full max-w-lg overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-2xl backdrop-blur-xl">
               <Image
-                src="/d.png"
+                src="/hero.jpg"
                 alt="Education Marketing"
                 width={700}
                 height={800}
